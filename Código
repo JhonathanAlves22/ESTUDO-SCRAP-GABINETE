@@ -1,0 +1,11 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+#Leitura do arquivo
+base=pd.read_csv('Base_Scrap_2018.csv', encoding='utf-8')
+print('Este dataset possui %s linhas e %s colunas' % (base.shape[0], base.shape[1]))
+
+#Verificar os tipos de dados
+print(base.dtypes)

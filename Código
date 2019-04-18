@@ -7,12 +7,13 @@ import seaborn as sns
 base=pd.read_csv('Base_Scrap_2018.csv', encoding='utf-8')
 print('Este dataset possui %s linhas e %s colunas' % (base.shape[0], base.shape[1]))
 
-Este dataset possui 63738 linhas e 23 colunas
+Respoasta: Este dataset possui 63738 linhas e 23 colunas
 
 
 #Verificar os tipos de dados
 print(base.dtypes)
 
+Resposta: 
 ORG. INVENTARIO                 object
 TIPO ORDEM                     float64
 ORDEM PROD.                    float64
@@ -37,3 +38,4 @@ CUSTO TOTAL (R$)                object
 CONTA                           object
 OBSERVAÇÃO                      object
 dtype: object
+
